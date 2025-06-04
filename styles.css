@@ -47,9 +47,11 @@ body {
 }
 
 .intro-gif {
-    width: 100%;
-    height: 100vh;
-    object-fit: cover;
+    max-width: 100%;
+    max-height: 100vh;
+    width: auto;
+    height: auto;
+    object-fit: contain;
     object-position: center;
 }
 
@@ -514,6 +516,18 @@ body {
         bottom: 30px;
         font-size: 0.9rem;
     }
+    
+    .coming-soon-title {
+        font-size: 2.5rem;
+    }
+    
+    .milky-way {
+        width: 200px;
+    }
+    
+    .coming-soon-description p {
+        font-size: 1rem;
+    }
 }
 
 /* Coming Soon Page Styles */
@@ -729,5 +743,4 @@ body {
     .coming-soon-description p {
         font-size: 1rem;
     }
-}
 }
