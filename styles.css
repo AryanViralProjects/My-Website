@@ -280,6 +280,31 @@ body {
     justify-content: center;
 }
 
+.footer-analytics-text {
+    margin-top: 30px; /* Adjust as needed */
+    font-size: 0.9rem;
+    color: var(--secondary-text); /* Using existing secondary text color, can be adjusted */
+    font-family: var(--sans-font); /* Default sans-serif for 'thanks for visiting' */
+}
+
+.footer-separator {
+    margin: 0 8px;
+}
+
+.footer-analytics-link {
+    font-family: var(--serif-font); /* Serif font for 'site analytics' */
+    color: var(--secondary-text); /* Same color or can be slightly different */
+    text-decoration: none; /* Remove default underline */
+    border-bottom: 1px dotted var(--secondary-text); /* Dotted underline */
+    padding-bottom: 1px; /* Small space for the underline */
+    transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.footer-analytics-link:hover {
+    color: var(--text-color); /* Lighter color on hover */
+    border-bottom-color: var(--text-color);
+}
+
 /* Animations */
 @keyframes fadeInUp {
     from {
